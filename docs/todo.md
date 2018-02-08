@@ -6,7 +6,3 @@
 * [ ] `src` Add babel and webpack (explore 0cx
 * [ ] `test` Test each package individually via api.test.js
 * [ ] `docs` Consider adding tutorial docs
-* [ ] `src`
-* [ ] `src`
-* [ ] `src`
-* [ ] `src`
