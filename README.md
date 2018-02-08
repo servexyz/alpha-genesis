@@ -18,13 +18,9 @@ yarn add alpha-genesis
 
 ---
 
-### Import
-
 ```js
 import { Library, File, Content } from "alpha-genesis";
 ```
-
-#### Subsumed API Docs
 
 ##### Library
 
@@ -32,7 +28,7 @@ import { Library, File, Content } from "alpha-genesis";
 
 ```js
 const { myLibConfig } = require("./path/to/my-config.js");
-const { Library } = require("library-genesis");
+const { Library } = require("alpha-genesis");
 Library(myLibConfig).generate();
 ```
 
@@ -42,7 +38,7 @@ Library(myLibConfig).generate();
 
 ```js
 const path = require("path");
-const { File } = require("file-genesis");
+const { File } = require("alpha-genesis");
 const gitignore = `
   .DS_Store
   node_modules
@@ -56,13 +52,26 @@ File(filepathPlain).plain(gitignore);
 > [content-genesis](https://github.com/servexyz/content-genesis) repository
 
 ```js
-const { template } = require("content-genesis");
+const { template } = require("alpha-genesis");
 let foo = { variable1: "Foo", variable2: "Bar" };
 let fooTemplate = template("/path/to/template", foo);
 ```
 
 ---
 
-## Why
+## Goal
 
 ---
+
+* Simplify imports for related projects utilizing the genesis module series.
+* Personal educaiton (explore webpack to see how tree-shaking works in proxy pattern)
+* Prepare for subsequent CLI project
+
+---
+
+## Docs
+
+---
+
+* [todo](./docs/todo.md)
+  > Tasks by release version
