@@ -1,4 +1,5 @@
 const { File } = require("file-genesis");
-// export { Library } from "library-genesis";
+const { Library } = require("library-genesis");
+const { template } = require("content-genesis");
 
-module.exports = { File };
+module.exports = { File, Library, template };
