@@ -1,6 +1,6 @@
 {
   "name": "alpha-genesis",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -19,6 +19,9 @@
     "verbose": true,
     "bail": false,
     "collectCoverage": false,
-    "modulePathIgnorePatterns": ["sandbox", "node_modules"]
+    "modulePathIgnorePatterns": [
+      "sandbox",
+      "node_modules"
+    ]
   }
 }
