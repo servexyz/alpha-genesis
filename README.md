@@ -21,7 +21,7 @@ yarn add alpha-genesis
 ---
 
 ```js
-import { Library, File, Content } from "alpha-genesis";
+import { Library, File, template } from "alpha-genesis";
 ```
 
 ##### Library
