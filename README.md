@@ -1,6 +1,6 @@
 # Alpha-Genesis
 
-> Shim for library-genesis, file-genesis, content-genesis
+> Proxy for library-genesis, file-genesis, content-genesis
 
 ---
 
@@ -63,8 +63,9 @@ let fooTemplate = template("/path/to/template", foo);
 
 ---
 
-* Simplify imports for related projects utilizing the genesis module series.
 * Prepare for subsequent CLI project
+* Simplify imports for related projects utilizing the genesis module series.
+* Provide buffer between independent versioning across multiple projects to mitigate hotpatch rollbacks on this project
 
 ---
 
@@ -74,3 +75,21 @@ let fooTemplate = template("/path/to/template", foo);
 
 * [todo](./docs/todo.md)
   > Tasks by release version
+
+---
+
+## Related
+
+---
+
+* `library-genesis`
+
+  > [@github](https://github.com/servexyz/library-genesis) | [@npm](https://www.npmjs.com/package/library-genesis)
+
+- `file-genesis`
+
+  > [@github](https://github.com/servexyz/file-genesis) | [@npm](https://www.npmjs.com/package/file-genesis)
+
+- `content-genesis`
+
+  > [@github](https://github.com/servexyz/content-genesis) | [@npm](https://www.npmjs.com/package/content-genesis)
