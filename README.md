@@ -64,7 +64,6 @@ let fooTemplate = template("/path/to/template", foo);
 ---
 
 * Simplify imports for related projects utilizing the genesis module series.
-* Personal educaiton (explore webpack to see how tree-shaking works in proxy pattern)
 * Prepare for subsequent CLI project
 
 ---

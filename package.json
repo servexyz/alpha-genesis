@@ -1,8 +1,11 @@
 {
   "name": "alpha-genesis",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "chalk": "^2.3.0",
     "content-genesis": "^0.5.5",
@@ -16,9 +19,6 @@
     "verbose": true,
     "bail": false,
     "collectCoverage": false,
-    "modulePathIgnorePatterns": [
-      "sandbox",
-      "node_modules"
-    ]
+    "modulePathIgnorePatterns": ["sandbox", "node_modules"]
   }
 }
