@@ -2,6 +2,8 @@
 
 > Proxy for library-genesis, file-genesis, content-genesis
 
+## [![Build Status](https://travis-ci.org/servexyz/alpha-genesis.svg?branch=master)](https://travis-ci.org/servexyz/alpha-genesis)
+
 ---
 
 ## Install
