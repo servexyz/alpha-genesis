@@ -1,6 +1,10 @@
-# Alpha-Genesis
+![logo](docs/images/logo/AlphaGenesis.png)
 
-> Proxy for library-genesis, file-genesis, content-genesis
+> WHAT: Proxy for library-genesis, file-genesis, content-genesis
+> 
+> WHY: Make it easy to use these disparate libraries in conjunction
+> 
+> WHO: Someone creating generators
 
 ## [![Build Status](https://travis-ci.org/servexyz/alpha-genesis.svg?branch=master)](https://travis-ci.org/servexyz/alpha-genesis)
 
