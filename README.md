@@ -1,4 +1,4 @@
-![logo](docs/images/logo/AlphaGenesis.png)
+![logo](docs/images/logo/AlphaGenesis.jpg)
 
 > WHAT: Proxy for library-genesis, file-genesis, content-genesis
 > 
