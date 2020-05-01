@@ -4,13 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "chalk": "^2.3.0",
     "content-genesis": "^0.5.5",
     "file-genesis": "^0.6.5",
-    "library-genesis": "^0.5.3"
+    "library-genesis": "^0.5.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -29,5 +32,6 @@
       "@babel/polyfill"
     ],
     "verbose": true
-  }
+  },
+  "snyk": true
 }
